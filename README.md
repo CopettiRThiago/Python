@@ -1,2 +1,5 @@
 # Python
-Material de cursos, exercícios e pequenos projetos
+
+Materiais de cursos
+Exercícios realizados em aula
+Pequenos projetos
