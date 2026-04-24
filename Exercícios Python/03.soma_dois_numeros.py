@@ -1,13 +1,8 @@
-# Programa que pede dois números para o usuário
-# e mostra a soma entre eles
+#Faça um Programa que peça dois números e imprima a soma.
 
-float_numero_1 = input('Digite o primeiro número : ')
-float_numero_2 = input('Digite o segundo número : ')
+numero_1 = float(input('Digite o primeiro número : '))
+numero_2 = float(input('Digite o segundo número : '))
 
-float_numero_1 = float(float_numero_1)
-float_numero_2 = float(float_numero_2)  
+soma = numero_1 + numero_2
 
-soma = float_numero_1 + float_numero_2
-
-print('A soma entre {} e {} é igual a {} '
-      .format(float_numero_1, float_numero_2, soma))
+print(f'A soma de {numero_1} e {numero_2} tem como resultado {soma}')
